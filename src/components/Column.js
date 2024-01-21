@@ -30,7 +30,7 @@ function Column({ colIndex }) {
 
 
 
-  const handleOnDrop = (e) => {
+  const handleOnDrop = (e) => {""
     const { prevColIndex, taskIndex } = JSON.parse(
       e.dataTransfer.getData("text")
     );
